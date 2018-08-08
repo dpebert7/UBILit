@@ -37,7 +37,7 @@ def db(request):
 
 
 def simple_chart(request):
-    data = pd.read_csv("staticfiles/3_year_data.csv", index_col = False)
+    data = pd.read_csv("3_year_data.csv", index_col = False)
     data = data.dropna()
 
 
