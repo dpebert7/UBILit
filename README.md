@@ -1,8 +1,10 @@
-# Python: Getting Started
+# Heroku, Django & bokeh
 
-A barebones Django app, which can easily be deployed to Heroku.
+A fork of [Getting Started with Python on Heroku](https://github.com/heroku/python-getting-started), with Bokeh added. A barebones Django site with Bokeh plots, which can easily be deployed to Heroku.
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+## Requirements
+
+
 
 ## Running Locally
 
@@ -42,3 +44,7 @@ or
 For more information about using Python on Heroku, see these Dev Center articles:
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python)
+
+For more information about deploying Bokeh, see these links:
+
+ -
