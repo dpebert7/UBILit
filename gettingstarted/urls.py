@@ -12,14 +12,14 @@ import hello.views
 
 
 #ADDED
-from hello.views import simple_chart
+from hello.views import ubi_chart
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
     url(r'^db', hello.views.db, name='db'),
     path('admin/', admin.site.urls),
     #ADDED
-    url(r'^simple_chart/$', simple_chart, name="simple_chart"),
+    url(r'^ubi_chart/$', ubi_chart, name="ubi_chart"),
 ]
 
 

@@ -1,22 +1,18 @@
-# Heroku, Django & bokeh
+# Heroku, Django & Bokeh
 
 A fork of [Getting Started with Python on Heroku](https://github.com/heroku/python-getting-started), with Bokeh added. A barebones Django site with Bokeh plots, which can easily be deployed to Heroku.
-
-## Requirements
-
 
 
 ## Running Locally
 
-Make sure you have Python [installed properly](http://install.python-guide.org). Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
+Make sure you have Python [installed properly](http://install.python-guide.org). Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and [Bokeh](https://bokeh.pydata.org/en/latest/docs/installation.html).
+
 
 ```sh
-$ git clone git@github.com:heroku/python-getting-started.git
-$ cd python-getting-started
+$ git clone https://github.com/dpebert7/heroku-django-bokeh
+$ cd heroku-django-bokeh
 
 $ pipenv install
-
-$ createdb python_getting_started
 
 $ python manage.py migrate
 $ python manage.py collectstatic
@@ -47,4 +43,5 @@ For more information about using Python on Heroku, see these Dev Center articles
 
 For more information about deploying Bokeh, see these links:
 
- -
+ - [Helpful Stack Exchange Answer](https://stackoverflow.com/a/29524050/5322379)
+ - [Bokeh Docs](http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html)

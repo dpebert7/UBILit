@@ -36,7 +36,7 @@ def db(request):
 
 
 
-def simple_chart(request):
+def ubi_chart(request):
     data = pd.read_csv("3_year_data.csv", index_col = False)
     data = data.dropna()
 
@@ -72,4 +72,4 @@ def simple_chart(request):
 
     script, div = components(q, CDN)
 
-    return render(request, "simple_chart.html", {"the_script": script, "the_div": div})
+    return render(request, "ubi_chart.html", {"the_script": script, "the_div": div})
