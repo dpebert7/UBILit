@@ -12,7 +12,6 @@ import pandas as pd
 from collections import defaultdict
 from bokeh.plotting import show, figure
 from bokeh.models import ColumnDataSource, HoverTool
-BOKEH_RESOURCES=inline
 
 
 
