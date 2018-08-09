@@ -35,6 +35,15 @@ def db(request):
 #from bokeh.embed import file_html
 
 
+def test(request):
+    plot = figure()
+    plot.circle([1,2], [3,4], size = 50)
+
+    script, div = components(plot, CDN)
+
+    return render(request, "test.html", {"the_script": script, "the_div": div})
+
+
 
 def ubi_chart(request):
     data = pd.read_csv("3_year_data.csv", index_col = False)

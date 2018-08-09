@@ -13,6 +13,7 @@ import hello.views
 
 #ADDED
 from hello.views import ubi_chart
+from hello.views import test
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
@@ -20,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #ADDED
     url(r'^ubi_chart/$', ubi_chart, name="ubi_chart"),
+    url(r'^test/$', test, name="test"),
 ]
 
 

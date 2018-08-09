@@ -2,6 +2,8 @@
 
 A fork of [Getting Started with Python on Heroku](https://github.com/heroku/python-getting-started), with Bokeh added. A barebones Django site with Bokeh plots, which can easily be deployed to Heroku.
 
+Here's an [example](https://heroku-django-bokeh.herokuapp.com/test/) output.
+
 
 ## Running Locally
 
@@ -20,7 +22,7 @@ $ python manage.py collectstatic
 $ heroku local
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Your app should now be running on [localhost:5000](http://localhost:5000/), with a Bokeh demo at [localhost:5000/test/](http://localhost:5000/test/)
 
 ## Deploying to Heroku
 
@@ -34,6 +36,8 @@ $ heroku open
 or
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 
 ## Documentation
 
